@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/estyles.css" />
+    <script src="https://kit.fontawesome.com/849e8c00db.js" crossorigin="anonymous"></script>
+    <title>Ejercicio 3</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <section class="header__container main__container">
+          <figure  style="margin-bottom: 0 !important;" class="header__logo">
+          <p  style="margin-bottom: 0 !important;" class="header__img" id="header__img">SB UI Kit Pro</p>
+          </figure>
+          <nav style="flex-wrap: nowrap;" class="nav nav--menu" id="nav">
+          <a href="#" class="nav__link" id="nav__link">Home</a>
+          <a href="#" class="nav__link" id="nav__link">
+              <img src="./img/angle-right.svg" alt="" />
+              Landings
+          </a>
+          <a href="#" class="nav__link" id="nav__link">
+              <img src="./img/angle-right.svg" alt="" />
+              Pages
+          </a>
+          <a href="#" class="nav__link" id="nav__link">
+              <img src="./img/angle-right.svg" alt="" />
+              Documentation
+          </a>
+          <img src="./img/close.svg" alt="Image_close_menu" class="menu__close" />
+          <div  id="buy-now"  class="header__button" id="header__button">
+              <button type="submit" class="button">
+              <img src="./img/arrow-rightBtnHeader.svg" alt="arrow_right" /> Buy Now
+              </button>
+          </div>
+          </nav>
+          <div class="header__menu">
+          <img src="./img/menu.svg" alt="Image_open_menu" class="menu__open" />
+          </div>
+      </section>
+    </header>
+  
+    <!-- Section Main -->
+    <main class="row gx-5">
+
+      <section class="section__cards">
+        <div class="cards main__container">
+          <div style="margin-top: 30px;" id="linea1" class="d-flex align-items-center justify-content-between">
+                <h6 style="padding-top: 0;" id="featured">Featured Story</h6>
+                <div class="ms-auto">
+                    <a id="moreHeadlines" class="text-arrow-icon-small mb-3" href="">More headlines <svg xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                        </svg>
+                        <a>
+                </div>
+          </div>
+          <hr class="mb-4">
+            
+          <div class="card mb-3">
+                <div class="row g-0">
+                    <div id="mitadCard" class="col-md-6"> 
+                        <div class="card-body">
+                            <span class="rounded-pill btn-primary-soft text-primary">Web</span>
+                            <a id="cardTitulo" href="#"><h4  class="card-title text-dark mt-3">News companies post headline about creating new websites with
+                                powerful UI kits</h4></a>
+                            <p style="margin: 0;" class="card-text">When creating and developing startups, using a UI kit to bootstrap your
+                                companies website can be an extremely efficient way to save time, money, and runway.
+                            </p>
+                            <a id="cardReadMore" class="text-arrow-icon-small" href="">
+                              Read more <img class="img" src="/ejercicio-3/img/arrow-right.svg" alt="image_arrow_right">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 align-self-stretch bg-img-cover d-none d-lg-flex" style="background-image: url('https://source.unsplash.com/npxXWgQ33ZQ/1200x800')"></div>
+                </div>
+          </div>
+        </div>
+      </section>
+  
+      <!--Top stories y opinions Ricardo - Manuel -->
+      <section class="top-opinions">
+          <div class="main__container">
+            <div class="top-stories">
+                <h3 class="stories__title">Top Stories</h3>
+                <a href="#" class="link">View more
+                  <img class="img" src="./img/arrow-right.svg" alt="image_arrow_right">
+                </a>
+            </div>
+            
+            <section class="stories__texts">
+              <div class="stories__text">
+                <div class="stories__content">
+                  <div class="content__text">
+                    <a href="#" class="text__title--link">
+                      Is the Bootstrap framework the best way to build a mobile responsive website?
+                    </a>
+                    <p class="text__paragraph">
+                      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                      Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc 
+                      ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </p>
+                    <div class="content__link">
+                      <a href="#" class="link">Read more</a>
+                        <img class="img" src="./img/arrow-right.svg" alt="image_arrow_right">
+                      </a>
+                    </div>
+                  </div>
+                  <figure class="content__img">
+                    <img src="https://source.unsplash.com/4hbJ-eymZ1o/160x160" alt="image_screen">
+                  </figure>
+                </div>
+                <div class="stories__content">
+                  <div class="content__text">
+                    <a href="#" class="text__title--link">
+                      Is virtual reality the new UI? Exploring the use of virtual reality and 3D user interfaces for everyday products
+                    </a>
+                    <p class="text__paragraph">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repellat possimus delectus odit vero! Accusantium, 
+                      omnis! Amet reiciendis ex numquam. Minus corporis, tempore facere placeat repellat ipsum eaque similique neque.
+                    </p>
+                    <div class="content__link">
+                      <a href="#" class="link">Read more</a>
+                        <img class="img" src="./img/arrow-right.svg" alt="image_arrow_right">
+                      </a>
+                    </div>
+                  </div>
+                  <figure class="content__img">
+                    <img src="https://source.unsplash.com/HI6gy-p-WBI/160x160" alt="image_screen">
+                  </figure>
+                </div>
+                <div class="stories__content stories__content--mod">
+                  <div class="content__text">
+                    <a href="#" class="text__title--link">
+                      How cats can improve your workflow productivity
+                    </a>
+                    <p class="text__paragraph">
+                      Quasi error voluptates, commodi enim voluptate, quisquam vitae temporibus asperiores velit vero aperiam culpa iste 
+                      eius autem praesentium ducimus similique iusto dolorum.
+                    </p>
+                    <div class="content__link">
+                      <a href="#" class="link">Read more</a>
+                        <img class="img" src="./img/arrow-right.svg" alt="image_arrow_right">
+                      </a>
+                    </div>
+                  </div>
+                  <figure class="content__img">
+                    <img src="https://source.unsplash.com/bN9FFTPlLjU/160x160" alt="image_screen">
+                  </figure>
+                </div>
+              </div>
+              <div class="opinions-manu">
+                <h6>Opinion</h6>
+                <hr>
+                <div class="opinion-manu">
+                    <img src="https://sb-ui-kit-pro.startbootstrap.com/assets/img/illustrations/profiles/profile-1.png">
+                    <div>
+                        <h6>Bootstrap is the best CSS framework, hands down</h6>
+                        <h6>by Valerie Luna</h6>
+                    </div>
+                </div>
+                <div class="opinion-manu">
+                    <img src="https://sb-ui-kit-pro.startbootstrap.com/assets/img/illustrations/profiles/profile-2.png">
+                    <div>
+                        <h6>Bootstrap is the best CSS framework, hands down</h6>
+                        <h6>by Ewan Rogers</h6>
+                    </div>
+                </div>
+                <div class="opinion-manu">
+                    <img src="https://sb-ui-kit-pro.startbootstrap.com/assets/img/illustrations/profiles/profile-3.png">
+                    <div>
+                        <h6>Bootstrap is the best CSS framework, hands down</h6>
+                        <h6>by Alicia Allen</h6>
+                    </div>
+                </div>
+                <div class="opinion-manu">
+                    <img src="https://sb-ui-kit-pro.startbootstrap.com/assets/img/illustrations/profiles/profile-5.png">
+                    <div>
+                        <h6>Bootstrap is the best CSS framework, hands down</h6>
+                        <h6>by Kolby Brock</h6>
+                    </div>
+                </div>
+                <div class="opinion-manu">
+                    <img src="https://sb-ui-kit-pro.startbootstrap.com/assets/img/illustrations/profiles/profile-4.png">
+                    <div>
+                        <h6>Bootstrap is the best CSS framework, hands down</h6>
+                        <h6>by William Cole</h6>
+                    </div>
+                </div>
+              </div>
+            </section>
+          </div>   
+      </section>
+  
+      <!-- Tech Business Health Rodrigo  -->
+      <section class="section__tech">
+        <div id="last-conteiner" class="main__container">
+          <hr class="my-4" />
+            <div class="row gx-5 mb-5">
+              <!-- Tech -->
+              <div class="col-lg-4">
+                <h6>Tech</h6>
+                <hr class="my-4" />
+                <a class="text-dark mb-4" href="#!">
+                  <h6>Newest tech from 2020 that can improve our quality of life</h6>
+                  <p class="text-gray-600 small mb-4">
+                    New technology is always improving the way we live. This year,
+                    we've made some major advancements.
+                  </p>
+                </a>
+                <a class="text-dark mb-4" href="#!">
+                  <h6>Robotics and the future of industry</h6>
+                  <p class="text-gray-600 small mb-4">
+                    Machining and tooling systems are improving everday with the help
+                    of modern robotics.
+                  </p>
+                </a>
+                <a class="text-dark mb-4" href="#!">
+                  <h6>Artificial intelligence - should we be worried?</h6>
+                  <p class="text-gray-600 small mb-4">
+                    Ever since James Cameron's blockbuster, the discussion about
+                    whether AI is safe has been on our minds.
+                  </p>
+                </a>
+                <a class="text-arrow-icon small" href="#!">
+                  <h6>
+                    More from Tech
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="15"
+                      height="15"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-arrow-right"
+                    >
+                      <line x1="5" y1="12" x2="19" y2="12"></line>
+                      <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                  </h6>
+                </a>
+              </div>
+              <!-- Business -->
+              <div class="col-lg-4">
+                <h6>Business</h6>
+                <hr class="my-4" />
+                <a class="text-dark mb-4" href="#!">
+                  <h6>Cottage industries and the passion economy</h6>
+                  <p class="text-gray-600 small mb-4">
+                    An old turn of phase states that if you do what you love, you
+                    won't work a day in your life. In today's economy, some are
+                    pushing that concept to the limit.
+                  </p>
+                </a>
+                <a class="text-dark mb-4" href="#!">
+                  <h6>Everybody love pizza!</h6>
+                  <p class="text-gray-600 small mb-4">
+                    Well, not everybody, but pizza companies are making major moves
+                    towards global expansion.
+                  </p>
+                </a>
+                <a class="text-dark mb-4" href="#!">
+                  <h6>Tax season is here, and you can file for free</h6>
+                  <p class="text-gray-600 small mb-4">
+                    Before you go and pay to get your taxes filed, take a look at some
+                    of these free options!
+                  </p>
+                </a>
+                <a class="text-arrow-icon small" href="#!">
+                  <h6>
+                    More from Tech
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="15"
+                      height="15"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-arrow-right"
+                    >
+                      <line x1="5" y1="12" x2="19" y2="12"></line>
+                      <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                  </h6>
+                </a>
+              </div>
+              <!-- Health -->
+              <div class="col-lg-4">
+                <h6>Health</h6>
+                <hr class="my-4" />
+                <a class="text-dark mb-4" href="#!">
+                  <h6>The carnivore diet, what the science says...</h6>
+                  <p class="text-gray-600 small mb-4">
+                    It's like having a meat lover's pizza without the bread, cheese,
+                    and sauce - but is it healthy?
+                  </p>
+                </a>
+                <a class="text-dark mb-4" href="#!">
+                  <h6>An annual review of pathology and disease</h6>
+                  <p class="text-gray-600 small mb-4">
+                    This year's statistics are in, and the numbers have a lot to say.
+                  </p>
+                </a>
+                <a class="text-dark mb-4" href="#!">
+                  <h6>High intensity workouts and their effect on blood pressure</h6>
+                  <p class="text-gray-600 small mb-4">
+                    Working out with more intensity for less time, is it worth the
+                    added exhaustion?
+                  </p>
+                </a>
+                <a class="text-arrow-icon small" href="#!">
+                  <h6>
+                    More from Tech
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="15"
+                      height="15"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-arrow-right"
+                    >
+                      <line x1="5" y1="12" x2="19" y2="12"></line>
+                      <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                  </h6>
+                </a>
+              </div>
+            </div>
+        </div>
+        <div style="width: 80%; margin-left: auto; margin-right: auto; top: 45px; z-index: 100;" class="card mb-n5 z-1 shadow-sm">
+          <div style="height: auto; box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);" class="card-body p-5">
+            <div class="row gx-5 align-items-center">
+              <div class="col-lg-6">
+                <h4>Get the latest news</h4>
+                <p class="lead mb-0">
+                  Stay in the loop with the latest stories and braking headlines!
+                </p>
+              </div>
+              <div class="col-lg-6">
+                <div class="input-group mb-2">
+                  <input
+                    class="form-control form-control-solid"
+                    type="text"
+                    placeholder="youremail@example.com"
+                    aria-label="Recipient email"
+                    aria-describedby="btn-add-email"
+                  />
+                  <button class="btn btn-lg btn-primary " id="btn-add-email">
+                    Sign up
+                  </button>
+                </div>
+                <div class="lead lead--mod">
+                  You can unsubscribe at any time.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <svg style="background-color: #f2f8fc; color:rgb(32 40 50); width:100%; height:40px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none" fill="currentColor"><path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path></svg>
+    <footer style="color: rgb(32 40 50);" class="footer">
+      <div class="footer__content main__container">
+        <section class="footer__section">
+          <div class="footer__social">
+            <figure class="footer__logo">
+              <span class="footer__img">SB UI Kit Pro</span>
+            </figure>
+            <span class="icons__text">Design made easy</span>
+            <div class="footer__icons">
+              <a href="#" target="_blank">
+                <i class="fa fa-instagram"></i>
+              </a>
+              <a href="#" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+              <a href="#" target="_blank">
+                <i class="fa fa-github"></i>
+              </a>
+              <a href="#" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+          <div class="footer__links">
+            <div class="footer__services">
+              <span class="title">Product</span>
+              <a href="#">Landing</a>
+              <a href="#">Pages</a>
+              <a href="#">Sections</a>
+              <a href="#">Documentation</a>
+              <a href="#">Changelog</a>
+            </div>
+            <div class="footer__services">
+              <span class="title">Technical</span>
+              <a href="#">Documentation</a>
+              <a href="#">Changelog</a>
+              <a href="#">Theme Customizer</a>
+              <a href="#">UI Kit</a>
+            </div>
+            <div class="footer__services">
+              <span class="title">Includes</span>
+              <a href="#">Utilities</a>
+              <a href="#">Components</a>
+              <a href="#">Layouts</a>
+              <a href="#">Code Samples</a>
+              <a href="#">Products</a>
+              <a href="#">Affiliates</a>
+              <a href="#">Updates</a>
+            </div>
+            <div class="footer__services">
+              <span class="title">Legal</span>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms and Conditions</a>
+              <a href="#">License</a>
+            </div>
+          </div>
+        </section>
+        <section class="footer__section footer__section--mod">
+          <span class="footer__copyright">Copyright &#169; Your Weebsite 2021</span>
+          <div class="footer__terms">
+            <a href="#" class="footer__terms--terms">Privacy Policy</a>
+            <a href="#" class="footer__terms--terms">Terms & Conditions</a>
+          </div>
+        </section>
+      </div>
+    </footer>
+      
+      
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
